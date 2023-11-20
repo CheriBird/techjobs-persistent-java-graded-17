@@ -22,12 +22,11 @@ public class Skill extends AbstractEntity {
     private List<Job> jobs = new ArrayList<>();
 
     // constructors
-    public Skill( ) {
-    }
+    public Skill( ) { }
 
-    public Skill(String description) {
-        this.description = description;
-    }
+//    public Skill(String description) {
+//        this.description = description;
+//    }
 
     // getters and setters
     public String getDescription( ) { return description; }
